@@ -1,0 +1,188 @@
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+.cv{
+	position: relative;
+	display: flex;
+	height: 296.5mm;
+	width: 210mm;
+	max-height: 296.5mm;
+	max-width: 296.5mm;
+	overflow: hidden;
+}
+
+.cv__leftColumn {
+	position: relative;
+	flex-basis: 35.5%;
+	max-width: 35.5%;
+	height: 100%;
+	/*background-color: grey;*/
+}
+
+.cv__rigthColumn {
+	position: relative;
+	flex-basis: 64.5%;
+	max-width: 64.5%;
+	height: 100%;
+	/*background-color: #9f9f9f; #00f4ed*/
+}
+
+.cv__sectionLeft {
+	margin-left: 1cm;
+	margin-bottom: 5mm;
+}
+
+.cv__sectionLeft--first{
+	margin-top: 10cm;
+}
+
+.cv__sectionRigth {
+	position: relative;
+	margin-left: 1.5cm;
+	margin-right: 1cm;
+	margin-bottom: 5mm;
+}
+
+.cv__sectionRigth--main {
+	margin-top: 2cm;
+	margin-bottom: 2cm;
+}
+
+.cv__title {
+	position: relative;
+	font-family: Lato, sans-serif;
+	font-size: 6mm;
+	color:  #662d91;
+	z-index: 20;
+	margin-bottom: 5mm;
+}
+
+.cv__title--main {
+	font-size: 1.2cm;
+}
+
+.cv__title--cyan {
+	color: #00f4ed;
+}
+
+.cv__exp {
+	margin-bottom: 4mm;
+}
+
+.cv__exp--last {
+	margin-bottom: 0;
+}
+
+.cv__edu {
+	margin-bottom: 4mm;
+}
+
+.cv__edu--last {
+	margin-bottom: 0;
+}
+
+.cv__skills {
+	display: flex;
+}
+
+.cv__p {
+	position: relative;
+	font-family: Lato, sans-serif;
+	font-size: 4.2mm;
+	font-weight: 400;
+	line-height: 5.5mm;
+	color:  #000;
+	z-index: 20;
+}
+
+.cv__p--flex {
+	flex-basis: 50%;
+	max-width: 50%;
+}
+
+.cv__address {
+	display: inline-block;
+	position: relative;
+	margin-left: 3mm;
+	font-family: Lato, sans-serif;
+	font-size: 4.2mm;
+	line-height: 7mm;
+	vertical-align: middle;
+	color:  #000;
+	z-index: 20;
+}
+
+.cv__links {
+	text-decoration: none;
+}
+
+.cv__icon {
+	display: inline-block;
+	position: relative;
+	height: 7mm;
+	vertical-align: middle;
+}
+
+.cv__icon--large {
+	height: 12mm;
+	margin-right: 3mm;
+}
+
+.cv__imgTitle {
+	position: absolute;
+	opacity: 0.3;
+	height: 1.8cm;
+	top: -6mm;
+	left: -5mm;
+}
+
+.cv__imgTitle--main {
+	height: 6.5cm;
+	top: -22mm;
+	left: -15mm;
+}
+
+.cv__imgTitle--opa {
+	opacity: 0.8;
+}
+
+.cv__images {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	max-height: 100%;
+	width: 100%;
+	max-width: 100%;
+}
+
+.cv__images--foto {
+	position: absolute;
+	width: 5cm;
+	top: 1cm;
+	left: 0.7cm;
+	z-index: 20;
+}
+
+.cv__images--paint1 {
+	position: absolute;
+	top: -2.7cm;
+	left: -5cm;
+	z-index: 10;
+}
+
+.cv__images--paint2 {
+	position: absolute;
+	bottom: -2cm;
+	left: -4cm;
+	z-index: 10;
+}
+
+.cv__images--paint3 {
+	position: absolute;
+	bottom: -5cm;
+	right: -2cm;
+	z-index: 10;
+}
