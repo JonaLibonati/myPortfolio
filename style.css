@@ -273,8 +273,13 @@ body {
     margin-bottom: 210px;
   }
 
-  .cv__sectionRigth {
+  .cv__sectionRigth,
+  .cv__sectionLeft {
     margin-right: 10px;
+  }
+
+  .cv__sectionLeft {
+	margin-left: 0.5cm;
   }
 
   .cv__images--foto {
