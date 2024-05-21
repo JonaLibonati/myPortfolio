@@ -64,7 +64,7 @@ body {
   position: relative;
   font-family: Poppins, sans-serif;
   font-weight: 500;
-  font-size: 6mm;
+  font-size: 5.5mm;
   color: #662d91;
   z-index: 20;
   margin-bottom: 4mm;
@@ -73,6 +73,7 @@ body {
 .cv__title--main {
   margin-top: 10mm;
   font-size: 1cm;
+  font-weight: 600;
 }
 
 .cv__title--cyan {
@@ -130,6 +131,8 @@ body {
 .cv__links {
   text-decoration: none;
   font-style: italic;
+  color: #44403c;
+  text-decoration-line: underline;
 }
 
 .cv__links:hover {
@@ -153,8 +156,8 @@ body {
   position: absolute;
   opacity: 0.3;
   height: 1.8cm;
-  top: -6mm;
-  left: -5mm;
+  top: -6.6mm;
+  left: -7mm;
 }
 
 .cv__imgTitle--main {
@@ -300,22 +303,30 @@ body {
   }
 
   .cv__imgTitle--skill {
-    width: 145px;
+    width: 156px;
   }
 
   .cv__links {
     color: #662d91;
     font-weight: 800;
+    text-decoration-line: none;
   }
 
-  .cv__exp{
-	margin-bottom: 8px;
+  .cv__exp {
+    margin-bottom: 8px;
   }
-
 }
 
 @media screen and (max-width: 435px) {
-	.cv__links  {
-		display: block;
-	  }
+  .cv__links {
+    display: block;
+  }
+
+  .cv__title--main {
+	font-size: 29px;
+  }
+
+  .cv__rigthColumn .cv__title {
+    font-size: 18px;
+  }
 }
